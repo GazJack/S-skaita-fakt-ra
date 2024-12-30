@@ -1,0 +1,85 @@
+// * {
+//     width: 100vh;
+//     height: 100%;
+//     box-sizing: border-box;
+// }
+
+* {
+    font-size: 18px;
+}
+
+.virsutinePirmopjiEilute {
+    display: flex;
+    padding: 50px;
+    gap: 500px;
+}
+
+.pardavejoAdresasTevas {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    line-height: 1px;
+    width: 600vh;
+
+}
+
+.pirkejoAdresasTevas {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-end;
+    padding-bottom: 200px;
+    line-height: 1px;
+    width: 600vh;
+
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 42px;
+
+}
+
+#saskaitosNr {
+    font-size: 42px;
+}
+
+table.pavadinimasKiekisKainaNuolaida {
+    width: 90%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    margin: 20px auto;
+    text-align: left;
+}
+
+table.pavadinimasKiekisKainaNuolaida th {
+    padding: 8px 12px;
+    border-bottom: 1px solid #0000005f; /* Papildoma rėmelių vizualizacija */
+    text-align: left;
+    background-color: rgba(32, 178, 171, 0.16);
+}
+
+table.pavadinimasKiekisKainaNuolaida td {
+    padding: 8px 12px;
+    border-bottom: 1px solid #000; /* Papildoma rėmelių vizualizacija */
+    text-align: left;
+}
+
+table.pavadinimasKiekisKainaNuolaida th {
+    font-weight: bold;
+}
+
+h4 {
+    margin-left: 1000px;
+    border-bottom: 1px solid black;
+    width: 490px;
+    position: relative;
+}
+

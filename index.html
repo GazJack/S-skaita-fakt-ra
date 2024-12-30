@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>PVM SĄSKAITA FAKTŪRA</title>
+</head>
+<body>
+    
+    <div class="virsutinePirmopjiEilute">
+    <section class="pardavejoAdresasTevas">
+<div class="imonesPavadinimasVaikas">
+    <h2>Pardavėjas: <span id="pardavejas"></span></h2>
+</div>
+<h3>Adresas: <span id="pardavejoAdresas"></span></h3>
+<h3>Įmonės kodas: <span id="pardavejoImonesKodas"></span></h3>
+<h3>PVM mokėtojo kodas: <span id="pardavejoPVMMoketojoKodas"></span></h3>
+<h3>Telefono nr.: <span id="pardavejoTelNr"></span></h3>
+<h3>El. pašto adresas: <span id="pardavejoElPastas"></span></h3>
+</section>
+
+<!--reikia PAKEISTI -> tarpine suma / transportas / pvm / galutine suma-->
+
+
+    <section class="pirkejoAdresasTevas">
+        <div class="pirkejoPavadinimasVaikas">
+            <h2>Pirkėjas: <span id="pirkejas"></span></h2>
+        </div>
+        <h3>Adresas: <span id="pirkejoAdresas"></span></h3>
+        <h3>Įmonės kodas: <span id="pirkejoImonesKodas"></span></h3>
+        <h3>PVM mokėtojo kodas: <span id="pirkejoPVMMoketojoKodas"></span></h3>
+        <h3>Telefono nr.: <span id="pirkejoTelNr"></span></h3>
+        <h3>El. pašto adresas: <span id="pirkejoElPastas"></span></h3>
+    </section>
+</div>
+    
+<h1>PVM SĄSKAITA FAKTŪRA <span id="saskaitosNr"></span> </h1>
+<div class="terminasNuoIki">
+    <h3>
+        <br>
+        Sąskaitos data: 2024-11-19 
+        <br>
+    </h3>
+    <h3>Apmokėti iki: 2024-12-01</h3>
+    <br>
+</div>
+
+<table id="pirkiniai" class="pavadinimasKiekisKainaNuolaida">
+    <thead>
+      <tr>
+        <th>Pavadinimas</th>
+        <th>Kiekis</th>
+        <th>Kaina</th>
+        <th>Nuolaida</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Prekės bus pridedamos čia -->
+    </tbody>
+  </table>
+  
+
+
+
+
+<br>
+<div class="kainos">
+    <h4>Kaina: <span id="tarpineKaina"></span></h4>
+    <h4>PVM 21%: <span id="pvm"></span></h4>
+    <h4>Pristatymas: <span id="pristatymas"></span></h4>
+
+
+    <h4>Viso: <span id="galutineKaina"></span></h4>
+</div>
+
+
+
+
+</body>
+</html>
